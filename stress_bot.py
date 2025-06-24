@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import asyncio
-import psutil
+import psutil 
 from telegram import Bot
 from telegram.error import TelegramError
 
@@ -11,8 +11,8 @@ CHECK_INTERVAL = 5  # Интервал проверки в секундах (5 �
 
 # Пороговые значения (в %)
 CPU_THRESHOLD = 80
-MEM_THRESHOLD = 85
-DISK_THRESHOLD = 90
+MEM_THRESHOLD = 80
+DISK_THRESHOLD = 80
 
 def get_system_stats():
     """Получение текущей нагрузки системы"""
