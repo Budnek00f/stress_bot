@@ -10,9 +10,9 @@ TELEGRAM_CHAT_ID = "86458589"
 CHECK_INTERVAL = 5  # Интервал проверки в секундах (5 минут)
 
 # Пороговые значения (в %)
-CPU_THRESHOLD = 80
+CPU_THRESHOLD = 90
 MEM_THRESHOLD = 80
-DISK_THRESHOLD = 80
+DISK_THRESHOLD = 85
 
 def get_system_stats():
     """Получение текущей нагрузки системы"""
